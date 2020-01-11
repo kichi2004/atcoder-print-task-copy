@@ -12,8 +12,6 @@
 
 'use strict';
 
-var style;
-
 (function () {
   if (document.queryCommandSupported('copy')) {
     $('#task-statement h3+pre').each(function (i) {
