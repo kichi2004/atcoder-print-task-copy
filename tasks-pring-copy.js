@@ -1,13 +1,12 @@
 // ==UserScript==
 // @name         AtCoder Print Task Copy
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/kichi2004/atcoder-print-task-copy/tree/master
+// @version      1.0
 // @description  Add copy buttons to tasks_print page.
 // @author       kichi2004
-// @match        https://atcoder.jp/contests/*/tasks_print*
+// @include      https://atcoder.jp/contests/*/tasks_print*
 // @grant        none
-// @require      https://atcoder.jp/public/js/lib/jquery-1.9.1.min.js?v=202001082219
-// @run-at   document-start
+// @require      http://code.jquery.com/jquery-1.12.4.min.js
 // ==/UserScript==
 
 'use strict';
