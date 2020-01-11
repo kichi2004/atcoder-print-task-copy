@@ -10,7 +10,7 @@
 // @run-at   document-start
 // ==/UserScript==
 
-'use strict'
+'use strict';
 
 var style;
 
